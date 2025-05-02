@@ -1,0 +1,48 @@
+/* Estilos del pie de página */
+.footer {
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-info p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  .footer-social {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .footer-social a {
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social a:hover {
+    color: #61dafb;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+      gap: 1rem;
+    }
+  }
